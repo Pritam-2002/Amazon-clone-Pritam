@@ -1,0 +1,453 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+    padding:0;}
+
+.navbar{
+    height: 60px;
+    background-color:#0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+.nav-logo{
+   
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+
+
+    height: 50px;
+    width: 100%;
+    
+    background-size:cover;
+    background-image: url(./amazon_logo\ \(1\).png);
+    
+
+}
+
+.border{
+  
+    border: 1.5px solid transparent
+
+}
+
+.border:hover{
+
+   border: 1.5px solid white;
+   
+}
+
+.add-first{
+
+    color: #cccccc;
+    font-size: 0.86rem;
+    margin-left: 10px;
+}
+
+.add-second{
+
+    color: #FFFFFF;
+    font-size: 1rem;;
+}
+
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+.nav-search{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color:darkgoldenrod;
+    width:60%;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+.search-select{
+
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px ;
+    background-color: #F3F3F3;
+    color: #0F1111;
+    text-align: center;
+    width:50px;
+    border: 0.8px;
+    padding-left: 5px;
+    border: none;
+
+}
+
+.EN{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 9px;
+    height: 19px;
+}
+
+.EN p{
+
+    font-size: 1.02rem;
+    
+    font-weight: 700;
+}
+
+.usa-flag{
+
+    height: 16.2px;
+    width:21.6px;
+    background-size: cover;
+    
+}
+
+
+
+.search-box{
+
+    width:100%;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+.search-icon{
+
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.span{
+
+    font-size: 0.86rem;
+    color: #FFFFFF;
+}
+
+.high-bold{
+
+    font-size: 1.09rem;
+    color: #FFFFFF;
+    font-weight:700;
+    
+}
+
+.nav-search:hover{
+
+    border:2px solid rgb(196, 155, 52)
+}
+
+
+.shopping-cart i{
+
+    font-size: 30px;
+}
+
+.nav-cart{
+
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+.shopping-cart{
+
+    display: flex;
+   align-items: end;
+}
+
+.panel{
+
+    display:flex;
+    background-color:#232F3E;
+    height: 39px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-op p{
+
+    
+    display: inline;
+    margin-left:12px;
+    font-size: 1.17rem;
+    
+}
+
+.panel-op{
+
+    width: 83%;
+    
+}
+.deals{
+
+    font-weight: 700;
+    font-size:1.17rem ;
+}
+
+.panel-op p:hover{
+
+    border: 1.5px solid white ;
+}
+
+.panel-all{
+
+    font-size: 1.17rem;
+    
+}
+
+.main-pic{
+
+    background-image: url(./71U-Q+N7PXL._SX3000_.jpg);
+    height:600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.main-you-are{
+
+    display:flex;
+    background-color:#F5F6F6;
+    height:40px;
+    width: 98%;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-bottom: 25px;
+    font-size: 0.85rem;
+    
+    
+}
+.main-you-are a{
+
+    color:#007185;
+}
+
+.shop-section{
+
+    background-color:#e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+
+    border: none;
+    height:400px ;
+    width: 23%;
+    background-color: white;
+    font: 1.02rem;
+    padding: 20px 0px 15px;
+    margin-top: 16px;
+}
+
+.box-content{
+
+    margin-left:1rem;
+    margin-right:1rem ;
+}
+
+.health-img{
+
+    
+    height: 300px;
+    
+    background-size:cover;
+    
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    
+    
+    
+}
+.box h2{
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box p{
+    font-size: 18px;
+    color:#007185;
+    cursor: pointer;
+}
+
+.health-img:hover{
+
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer{
+
+    margin-top: 15px;
+    background-color:#232F3E;
+}
+
+.footer-panel{
+
+    font-size:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+
+}
+
+.footer-panel2{
+
+    display: flex;
+    height: 300px;
+    background-color: #232F3E;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.footer-panel2 ul a{
+
+    display: block;
+    font-size: 1.2rem;
+    color: #DDDDDD;
+    margin-top: 10px;
+}
+
+.panel-2-bold{
+
+    font-weight: 700;
+}
+
+.footer-panel3{
+
+    height: 68px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-top: 1px solid whitesmoke;
+    font-size: 1rem;
+}
+
+.logo1{
+
+
+    height: 50px;
+    width: 100px;
+    
+    background-size:cover;
+    background-image: url(./amazon_logo\ \(1\).png);
+    
+
+}
+
+.box-1{
+
+    display:flex;
+    justify-content: space-between;
+    border:1.05px solid white ;
+    height: 33px;
+    width: 116.56px;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2{
+
+    border:1.05px solid white ;
+    height: 34px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-3{
+   
+    border:1.05px solid white ;
+    display: flex;
+    height: 33px;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.usa-flag1{
+
+    height: 12px;
+    width: 18px;
+    font-size: 24px;
+    background-size: cover;
+    border-image-source: url(./purepng.com-american-flagflagscountrylandflag-831523995311m0uxm.png);
+    border: 1px solid white;
+}
+
+.sub-footer-panel3{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+    
+}
+
+.hover{
+
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.box-3 p{
+
+    margin-left: 2px;
+}
+
+.fotter-content{
+
+    display: flex;
+    justify-content:center;
+    gap:40px;
+    align-items:center;
+    
+}
+
+.foot-panel4{
+
+    background-color: #0F1111;
+    color: white;
+    height: 80px;
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copy-right{
+     padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
